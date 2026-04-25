@@ -1,4 +1,4 @@
-import Comparator from '../../utils/comparator.js';
+import Comparator from '../utils/comparator';
 
 class LinkedList {
   constructor(compareFunction) {
@@ -7,3 +7,5 @@ class LinkedList {
     this.compare = new Comparator(compareFunction);
   }
 }
+
+export default LinkedList;
